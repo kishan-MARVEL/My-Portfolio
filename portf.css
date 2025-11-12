@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@media screen and (min-width: 600px){
+
+    body{
+        height: 200%;
+    }
+    .container{
+    background-color: black;
+    .navbar{
+        position: sticky;
+        /* position: fixed; */
+        width: 100%;
+        top: 10px;
+        /* padding: 0%; */
+        background-color: black;
+        height: 50px;
+        border-bottom: 1px solid white;
+        background-color: white;
+        color: black;
+        
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        height: 50px;
+        font-size: 20px;
+        text-transform: capitalize;
+        text-decoration: none;
+        align-items: center;
+        
+        /* border: 10px solid black; */
+        li{
+            list-style: none;
+            font-size: 20px ;
+        }
+        a{
+            font-style: none;
+            text-decoration: none;
+        }
+    }
+    img{
+        /* width: 20%;
+        height: 400px; */
+        /* size: 100px; */
+        height: 300px;
+        /* border-radius: 50%; */
+        
+
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        /* justify-content: space-around; */
+        height: 90vh;
+        align-items: center;
+        
+    }
+    .text{
+        /* border: 10px solid red; */
+        width: 40%;
+        text-align: justify;
+        color: white;
+    }
+    #img2{
+        position: absolute;
+        top: 450px;
+        height:250px ;
+        left: 1050px;
+    }
+    #img3{
+        position: absolute;
+        left: 1230px;
+        top: 400px;
+        height: 100px;
+        width: 100px;
+    }
+    #img4{
+        position: absolute;
+        left: 900px;
+        top: 200px;
+        height: 100px;
+        width: 100px;
+    }
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 500px;
+            color: white;
+        }
+    }
+    #wats{
+        i{
+            
+            position: fixed;
+            right: 100px;
+            color: aqua;
+        }
+    }
+}
+
+}
