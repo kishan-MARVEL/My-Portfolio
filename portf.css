@@ -27,6 +27,7 @@ nav {
   font-size: 28px;
   font-weight: bold;
 }
+
 .logo span {
   color: #00adb5;
 }
@@ -89,6 +90,23 @@ section {
   text-align: center;
 }
 
+section h2 {
+  font-size: 28px;
+  color: #0f2027;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #00adb5;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
 #about p {
   max-width: 700px;
   margin: 20px auto;
@@ -120,57 +138,4 @@ section {
 }
 
 /* Projects */
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.project-card {
-  background: #f2f2f2;
-  width: 280px;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card h3 {
-  color: #00adb5;
-}
-
-/* Contact */
-#contact a {
-  color: #00adb5;
-  text-decoration: none;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  background: #0f2027;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-  .hero h2 {
-    font-size: 30px;
-  }
-  section {
-    padding: 50px 20px;
-  }
-}
+.pr
